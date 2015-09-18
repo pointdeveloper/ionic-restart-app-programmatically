@@ -1,0 +1,23 @@
+<ion-view view-title="Playlists">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="playlist in playlists" 
+       class="item-button-right">
+        {{playlist.title}}
+   <div class="buttons">
+          <button class="button button-positive">
+                  <i class="icon icon ion-checkmark"></i>
+           </button>
+             <button class="button button-assertive">
+                  <i class="icon icon ion-close"></i>
+            </button>
+
+ </div>
+
+      </ion-item>
+    </ion-list>
+
+
+  </ion-content>
+</ion-view>
+  <ion-list>
